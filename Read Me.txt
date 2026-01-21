@@ -6,6 +6,8 @@ This collection of MATLAB codes performs image analysis for cell stretching expe
 Setup Requirements:
 Important: The folder titled "traction codes" must be added to your MATLAB path before running any analysis.
 
+The following codes are the ones you will be interfacing with. They are contained in the folder "Stretcher Codes"
+
 Code Descriptions
 Rigid Body Shift (RBS) Correction
 These codes must be run first before any other analysis.
@@ -41,4 +43,5 @@ Each code file contains detailed comments explaining how to run it. Please refer
 Contact
 Name: Benjamin Goykadosh	
 Email: goykadosh.b@northeastern.edu
+
 Affiliation: Northeastern University, Boston, Ma
