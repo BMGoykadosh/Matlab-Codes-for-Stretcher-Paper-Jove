@@ -2,17 +2,17 @@
 MATLAB codes for analyzing cell stretching experiments, including rigid body shift correction, displacement/strain field calculation, and traction force microscopy analysis.
 
 
-Cell Stretcher Image Analysis Codes
+## Cell Stretcher Image Analysis Codes
 
-Overview
+## Overview
 This collection of MATLAB codes performs image analysis for cell stretching experiments, including rigid body shift correction, displacement/strain field calculation, and traction force microscopy (TFM) analysis.
 
-Setup Requirements:
+### Setup Requirements:
 Important: The folder titled "traction codes" must be added to your MATLAB path before running any analysis.
 
 The following codes are the ones you will be interfacing with. They are contained in the folder "Stretcher Codes"
 
-Code Descriptions
+### Code Descriptions
 Rigid Body Shift (RBS) Correction
 These codes must be run first before any other analysis.
 
@@ -33,7 +33,7 @@ disp_trac_code_stretcher - Main script to calculate displacements and tractions 
 comment_Sam_beads_imcorr_v2_stretcher_test - Supporting function for TFM calculations
 cell_force_stretcher_test - Calculates average traction forces over a specified area (run after disp_trac_code_stretcher)
 
-Hardware Control
+### Hardware Control
 
 stretcher Motor code Arduino - Controls the Arduino board that drives motor movement for the stretching device
 
@@ -41,10 +41,10 @@ stretcher Motor code Arduino - Controls the Arduino board that drives motor move
 First, run the rigid body shift correction using rbs_correction_stretcher (which calls rbs_correction_function_stretcher). This step is required before any other analysis.
 After RBS correction, you can proceed with one of two analysis pathways depending on your needs. For displacement and strain field analysis, run stretcher_disp_strain_stress_2 (which calls Sam_beads_imcorr_v2_stretcher). Alternatively, for traction force microscopy analysis, run disp_trac_code_stretcher (which calls comment_Sam_beads_imcorr_v2_stretcher_test), then run cell_force_stretcher_test to calculate average traction forces over a specified area.
 
-Usage Notes
+### Usage Notes
 Each code file contains detailed comments explaining how to run it. Please refer to the individual file headers for specific instructions on input parameters and data formatting.
 
-Contact
+### Contact
 Name: Benjamin Goykadosh	
 Email: goykadosh.b@northeastern.edu
 Affiliation: Northeastern University, Boston, Ma
