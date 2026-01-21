@@ -31,7 +31,7 @@ cell_force_stretcher_test - Calculates average traction forces over a specified 
 
 Hardware Control
 
-stretcher code (Arduino) - Controls the Arduino board that drives motor movement for the stretching device
+stretcher Motor code Arduino - Controls the Arduino board that drives motor movement for the stretching device
 
 
 First, run the rigid body shift correction using rbs_correction_stretcher (which calls rbs_correction_function_stretcher). This step is required before any other analysis.
@@ -45,3 +45,4 @@ Name: Benjamin Goykadosh
 Email: goykadosh.b@northeastern.edu
 
 Affiliation: Northeastern University, Boston, Ma
+
