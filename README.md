@@ -1,6 +1,6 @@
 # Codes-for-Stretcher
 
-MATLAB codes for analyzing cell stretching experiments, including rigid body shift correction, displacement/strain field calculation, and traction force microscopy analysis.
+Codes for analyzing cell stretching experiments, including rigid body shift correction, displacement/strain field calculation, traction force microscopy analysis, and a simple program to control motor/stretcher movement.
 
 
 ## Cell Stretcher Image Analysis Codes
